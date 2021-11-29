@@ -14,7 +14,11 @@ jobs:
           node-version: 14.x
       - name: validate test.json
         run: |
+          ls -al
+          cat ./test.json
           npx valid-json-cli ./test.json 2>&1
       - name: validate error.json
         run: |
+          ls -al
+          cat ./error.json
           npx valid-json-cli ./error.json 2>&1
