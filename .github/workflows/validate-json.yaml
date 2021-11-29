@@ -14,5 +14,5 @@ jobs:
           node-version: 14.x
       - name: validate json files
         run: |
-          npx valid-json-cli ./test.json
-          npx valid-json-cli ./error.json
+          cat $(npx valid-json-cli ./test.json)
+          cat $(npx valid-json-cli ./error.json)
