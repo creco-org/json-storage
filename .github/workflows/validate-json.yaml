@@ -12,7 +12,9 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 14.x
-      - name: validate json files
+      - name: validate test.json
+        run: |
+          npx valid-json-cli ./test.json 2>&1
+      - name: validate error.json
         run: |
           npx valid-json-cli ./error.json 2>&1
-          npx valid-json-cli ./test.json 2>&1
