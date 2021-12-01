@@ -1,0 +1,22 @@
+{
+  "title": "Keychrone FN2 → Hyper Key (⌃⌥⇧⌘)",
+  "rules": [
+    {
+      "description": "Keychrone FN2 → Hyper Key (⌃⌥⇧⌘)",
+      "manipulators": [
+        {
+          "from": {
+            "apple_vendor_top_case_key_code": "keyboard_fn"
+          },
+          "to": [
+            {
+              "key_code": "left_shift",
+              "modifiers": ["left_command", "left_control", "left_option"]
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    }
+  ]
+}
