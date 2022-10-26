@@ -6,8 +6,8 @@
       "manipulators": [
         {
           "from": {
-              "key_code": "e",
-              "modifiers": ["left_command", "left_control"]
+              "key_code": "q",
+              "modifiers": ["left_option"]
           },
           "to": [
             {
