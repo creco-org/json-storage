@@ -1,0 +1,31 @@
+{
+  "title": "Creaticoding Macro",
+  "rules": [
+    {
+      "description": "TEST",
+      "manipulators": [
+        {
+          "from": {
+              "key_code": "left_shift",
+              "modifiers": ["left_command", "left_control", "left_option", "Q"]
+          },
+          "to": [
+            {
+              "key_code": "A"
+            },
+            {
+              "key_code": "A"
+            },
+            {
+              "key_code": "A"
+            },
+            {
+              "key_code": "A"
+            },
+          ],
+          "type": "basic"
+        }
+      ]
+    }
+  ]
+}
