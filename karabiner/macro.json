@@ -7,20 +7,20 @@
         {
           "from": {
               "key_code": "left_shift",
-              "modifiers": ["left_command", "left_control", "left_option", "Q"]
+              "modifiers": ["left_command", "left_control", "left_option", "q"]
           },
           "to": [
             {
-              "key_code": "A"
+              "key_code": "a"
             },
             {
-              "key_code": "A"
+              "key_code": "a"
             },
             {
-              "key_code": "A"
+              "key_code": "a"
             },
             {
-              "key_code": "A"
+              "key_code": "a"
             }
           ],
           "type": "basic"
